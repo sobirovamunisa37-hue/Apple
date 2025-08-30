@@ -31,7 +31,7 @@ nav a {
 .card1 {
     width: 100%;
     height: 640px;
-    border: 2px solid red;
+/*     border: 2px solid red; */
     text-align: center;
     background-image: url(img/ipad_mini.jpg);
     background-clip: cover;
@@ -89,7 +89,7 @@ nav a {
 .card2 {
     width: 100%;
     height: 640px;
-    border: 2px solid red;
+/*     border: 2px solid red; */
     text-align: center;
     background-image: url(img/iphone_16.jpg);
     background-clip: cover;
@@ -143,7 +143,7 @@ nav a {
 .card3 {
     width: 100%;
     height: 640px;
-    border: 2px solid red;
+/*     border: 2px solid red; */
     text-align: center;
     background-image: url(img/iphone_16_pro.jpg);
     background-clip: cover;
