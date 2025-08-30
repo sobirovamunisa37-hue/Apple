@@ -1,0 +1,570 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /* color: black; */
+    /* border: 3px solid red; */
+}
+
+nav {
+    /* border: 3px solid blue; */
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+}
+.card1 {
+    width: 100%;
+    height: 640px;
+    border: 2px solid red;
+    text-align: center;
+    background-image: url(img/ipad_mini.jpg);
+    background-clip: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    margin-bottom: 15px;
+}
+
+.card1 h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+    /* border: 2px solid blue; */
+    color: black;
+} 
+
+.card1 h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.card1 .button1 {
+    width: 135px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(0,114,228);
+    color: white;
+}
+
+.card1 .button1:hover {
+    background-color: rgb(25, 136, 248);
+}
+
+.card1 .button2 {
+    width: 85px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(227,240,247);
+    color: rgb(0,114,228);
+    border: 1px solid  rgb(0,114,228);
+}
+
+.card1 .button2:hover {
+    background-color: rgb(0,114,228);
+    color: white;
+}
+
+.card1 p {
+    margin-top: 370px;
+}
+
+.card2 {
+    width: 100%;
+    height: 640px;
+    border: 2px solid red;
+    text-align: center;
+    background-image: url(img/iphone_16.jpg);
+    background-clip: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card2 h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+    /* border: 2px solid blue; */
+} 
+
+.card2 h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.card2 .button3 {
+    width: 135px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(0,114,228);
+    color: white;
+}
+
+.card2 .button3:hover {
+    background-color: rgb(25, 136, 248);
+}
+
+.card2 .button4 {
+    width: 85px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(227,240,247);
+    color: rgb(0,114,228);
+    border: 1px solid  rgb(0,114,228);
+}
+
+.card2 .button4:hover {
+    background-color: rgb(0,114,228);
+    color: white;
+}
+
+.card3 {
+    width: 100%;
+    height: 640px;
+    border: 2px solid red;
+    text-align: center;
+    background-image: url(img/iphone_16_pro.jpg);
+    background-clip: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card3 h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+    /* border: 2px solid blue; */
+} 
+
+.card3 h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.card3 .button3 {
+    width: 135px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(0,114,228);
+    color: white;
+}
+
+.card3 .button3:hover {
+    background-color: rgb(25, 136, 248);
+}
+
+.card3 .button4 {
+    width: 85px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(227,240,247);
+    color: rgb(0,114,228);
+    border: 1px solid  rgb(0,114,228);
+}
+
+.card3 .button4:hover {
+    background-color: rgb(0,114,228);
+    color: white;
+}
+
+.duo-card1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0px 15px 15px 15px;
+}
+
+.duo-card2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0px 15px 15px 15px;
+}
+
+.duo-card3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0px 15px 15px 15px;
+}
+
+.card4 {
+    width: 824px;
+    height: 580px;
+    text-align: center;
+    background-image: url(img/apple_watch_series_10.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(22, 22, 23);
+}
+
+.card4 button {
+    width: 108px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: rgb(0, 114, 228);
+    border: none;
+    color: rgb(245, 245, 247);
+    font-size: 12px;
+}
+
+.card4 button:hover {
+    background-color: rgb(25, 136, 248);
+}
+
+.card4 h1 {
+    padding-top: 65px;
+}
+
+.card4 h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card4 p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.card4 button {
+    margin-top: 20px;
+}
+
+.card5 {
+    width: 824px;
+    height: 580px;
+    text-align: center;
+    background-image: url(img/apple_watch_ultra_2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 245, 247);
+}
+
+.card5 button {
+    width: 108px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: rgb(0, 114, 228);
+    border: none;
+    color: rgb(245, 245, 247);
+    font-size: 12px;
+}
+
+.card5 button:hover {
+    background-color: rgb(25, 136, 248);
+}
+
+.card5 h1 {
+    padding-top: 65px;
+}
+
+.card5 h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card5 p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.card5 button {
+    margin-top: 20px;
+}
+
+.card6 {
+    width: 824px;
+    height: 580px;
+    text-align: center;
+    background-image: url(img/airpods_4.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 245, 247);
+}
+
+.card6 button {
+    width: 108px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: rgb(0, 114, 228);
+    border: none;
+    color: rgb(245, 245, 247);
+    font-size: 12px;
+}
+
+.card6 button:hover {
+    background-color: rgb(25, 136, 248);
+}
+
+.card6 h1 {
+    padding-top: 65px;
+}
+
+.card6 h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card6 p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.card6 button {
+    margin-top: 20px;
+}
+
+.card7 {
+    width: 824px;
+    height: 580px;
+    text-align: center;
+    background-image: url(img/airpodsmax.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(22, 22, 23);
+}
+
+.card7 button {
+    width: 108px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: rgb(0, 114, 228);
+    border: none;
+    color: rgb(245, 245, 247);
+    font-size: 12px;
+}
+
+.card7 button:hover {
+    background-color: rgb(25, 136, 248);
+}
+
+.card7 h1 {
+    padding-top: 65px;
+}
+
+.card7 h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card7 p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.card7 button {
+    margin-top: 20px;
+}
+
+.card8 {
+    width: 824px;
+    height: 580px;
+    text-align: center;
+    background-image: url(img/apple_watch_se.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(22, 22, 23);
+}
+
+.card8 button {
+    width: 108px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: rgb(0, 114, 228);
+    border: none;
+    color: rgb(245, 245, 247);
+    font-size: 12px;
+}
+
+.card8 button:hover {
+    background-color: rgb(25, 136, 248);
+}
+
+.card8 h1 {
+    padding-top: 65px;
+}
+
+.card8 h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card8 p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.card8 button {
+    margin-top: 20px;
+}
+
+.card9 {
+    width: 824px;
+    height: 580px;
+    text-align: center;
+    background-image: url(img/ipadpro.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 245, 247);
+}
+
+.card9 button {
+    width: 108px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: rgb(0, 114, 228);
+    border: none;
+    color: rgb(245, 245, 247);
+    font-size: 12px;
+}
+
+.card9 button:hover {
+    background-color: rgb(25, 136, 248);
+}
+
+.card9 h1 {
+    padding-top: 65px;
+}
+
+.card9 h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card9 p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.card9 button {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #f5f5f7;
+    font-family: -apple-system, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-content .disclaimer{
+    color: #666;
+    font-size: 13px;
+}
+
+.footer-content hr {
+    border: none;
+    border-top: 1px solid #d2d2d7;
+    margin:20px 0;
+}
+ 
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.footer-column h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-column ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 6px
+}
+
+.footer-columns a {
+color: #555;
+text-decoration: none;
+font-size: 13px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.find-retailer {
+font-size: 13px;
+color: #666;
+}
+
+.find-retailer a{
+    color: #0071e3;
+}
+
+.footer-bottom{
+    margin-top: 20px;
+}
+
+.footer-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+}
+
+.footer-inline  p, .footer-inline .footer-links {
+     margin: 0; 
+}
+
+.footer-inline .bottom-links a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-inline .bottom-links a:hover  {
+    text-decoration: underline;
+}
+
+.footer-inline .region {
+    color: #666;
+}
